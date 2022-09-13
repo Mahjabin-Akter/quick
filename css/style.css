@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/****************************
+ header section
+ ***************************/
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background-color: white;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 20px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+a{
+	text-decoration: none;
+}
+.menu a{
+	color: #061E50;
+}
+.row img{
+	width: 150%;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+   
+}
+.line{
+	height: 10px;
+	width: 1750px;
+	background-color: #E6E6E6;
+}
+/****************************
+ navbar section
+ ***************************/
+.navbar{
+	width: 100%;
+	background-color: white;
+}
+.n-container{
+	width: 1140px;
+	margin: auto;
+}
+.n-row{
+	text-align: center;
+
+}
+.dark{
+	color: #0F2656;
+	font-size: 45px;
+	margin-top: 15px;
+}
+.light{
+	color: #0086FF;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+.top p{
+	font-size: 16px;
+	color: #3F5FA3;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+/****************************
+ speech section
+ ***************************/
+.speech{
+	width: 100%;
+	background-color: white;
+}
+.s-container{
+	width: 1140px;
+	margin: auto;
+
+}
+.s-row{
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 80px;
+
+
+}
+.successful{
+	font-size: 50px;
+	color: #0F2656;
+	margin-left: 40px;
+
+}
+.big{
+	font-size: 50px;
+	margin-left: 460px;
+	color: #F15767;
+
+}
+.p-1{
+	font-size: 16px;
+	color: #2F65A9;
+	margin-left: 200px;
+}
+.p-2{
+	font-size: 16px;
+	color: #2F65A9;
+	margin-left: 480px;
+
+}
+/****************************
+ banner section
+ ***************************/
+.banner{
+	width: 100%;
+	background-color: white;
+
+}
+.b-row{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 150px;
+}
+.b-left{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+
+
+}
+.b-middle{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+
+}
+.b-right{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+}
+
+
+
+/****************************
+ underline section
+ ***************************/
+.underline{
+	width: 100%;
+	padding: 40px 0px;
+	background-color: #008AFF;
+}
+.container h4{
+	text-align: center;
+	color: #E6E6E6;
+
+}
+.bold{
+	color: white;
+}
